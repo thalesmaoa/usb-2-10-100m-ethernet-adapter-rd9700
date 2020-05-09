@@ -17,9 +17,15 @@ From the menu bar, select "****" (Apple symbol), then "**Restart**". <br>
 
 ### 2) Installing driver
 
+**For Catalina users only** <br>
+Open “**Terminal**” and type
+```
+sudo mount -rw /
+sudo killall Finder
+```
 Execute file "**RD9700  Mac OS 10.10 Driver.pkg**" from the directory "**RD9700Driver/MAC DRIVER**", by double clicking on it. <br>
 Installer window will appear. <br>
-Proceed with the installation. <br>
+Proceed with the installation. Installation can fail but it will work anyway <br>
 Once installation application has finished, the application window should state: "**The installation was successful. The software was installed.**". <br>
 Click on "**Close**". <br>
 Kernel extension files should have been copied to directory "**/System/Library/Extensions/RD9700.kext**". <br>
