@@ -19,7 +19,7 @@ From the menu bar, select "****" (Apple symbol), then "**Restart**". <br>
 **For Catalina users only** <br>
 Open “**Terminal**” and type
 ```
-sudo mount -rw /
+sudo mount -uw /
 sudo killall Finder
 ```
 Execute file "**RD9700  Mac OS 10.10 Driver.pkg**" from the directory "**RD9700Driver/MAC DRIVER**", by double clicking on it. <br>
